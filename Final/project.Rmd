@@ -25,7 +25,8 @@ urlcolor: blue
 fontsize: 12pt
 biblio-style: apalike
 abstract: |
-  Write your abstract here.
+  This study aims to find out and assess the factors affecting gender-based salary discrepancies in various occupations. The researcher looked at the contaminants between groups using statistical methods, such as Anova, with a focus on the major_category variable. The study studied the effects of workplace discrimination on women's salary and employment chances. Further research in certain industries is required because the data showed varied patterns regarding the gender wage gap throughout career stages. Men and women both had their median annual wages and ranges in income disclosed, highlighting the differences that still exist. Strong evidence against the null hypothesis was presented by the high F value and low p-value, which showed significant differences between the groups.Overall, the results show that, in certain circumstances, gender wage inequalities are not statistically significant. This study adds to our understanding of gender-based wage disparities and offers a spotlight on the many factors that affect pay differences across different occupations.
+
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
@@ -37,35 +38,36 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 [^1]: 20080496
 
 # Introduction
-This outline has been created to assist you in writing your project assignment. You should cite all the sources you use, articles, presentations, projects, etc. Quoting and referencing gives readers the opportunity to access the resources you refer. **Even though you use your own words, if you are conveying the ideas of others in your work, you have to document the source of these ideas. Otherwise, you are committing academic plagiarism.** For example, you can refer to @aydinonat:2007 for academic writing rules. You can find lots of online resources on this topic.
+When we look at the professions, we see that in many of them, we see that male dominance is dominant. Some of the professions where male dominance outnumbers are academia, finance, engineer, architect, etc. My hypothesis is 'There is a gender gap on different occupations and the number of male workers is higher in different occupational group.In addition to the fact that the men we see in many parts of the business are out numbered by the women, there are 2 questions being asked. First of all, is the salary difference between men and women out numbered in men's work areas, and is the salary also higher? Our second question is, is the increase in women's working life and their salaries equal to men's wages?  I reached the data that answered and supported the answers to my questions from the Bureau of Labor Statistics and the Census Bureau about women in the workforce. There are historical data about women's earnings and employment status, as well as detailed information about specific occupation and earnings from 2013-2016. , which was linked to tidytuesday. When we examine the observations, we see different professions, full-time, part-time employment status, the number of working men and women, the branches of professions, and the salaries of men and women. 
+ 
+ 
 
-The sections in your project assignment should definitely include the sections in this text. Apart from the sections used here, you can use different subsections. When writing your project, use this file as a draft and adapt its content to your purposes.
-
-In this section, mention the purpose and importance of your work in a few paragraphs.
 
 ## Literature Review
 
-In this section, discuss the articles you have read on the subject by giving references. This is a narrative citation @chang:2013. This one is a parenthetical citation [@chang:2013]. **Do not summarize each article individually under a separate title.** In the literature review section, **at least six** articles must be cited [@newbold:2003; @verzani:2014; @wickham:2014; @wooldridge:2015a].
+The gender pay gap still a problem substantially over the past long year, and more women are working in previously dominated by males. These two labor market outcomes are closely related because substantial evidence demonstrates that, even when controlling for measured individual worker characteristics and a number of occupational characteristics, predominantly female occupations pay less. However, the proper meaning of these findings is still up for subject to discussion. the changes in the balance of female to male earners for full-time, year-round employees' yearly wages and their typical weekly earnings. The fact that women tend to work a shorter amount of weeks per year and hours per week than males is taken into consideration by these criteria.  In order to find a more diverse population of men and women workers and to steer clear of taking into account of the hourly wage disadvantages related to part-time labor, we focused on employees who work full-time. Across the board, considerable numbers of women have entered a variety of traditionally masculine occupations. Women generally have a greater probability than men to work part-time and have obstructing occupations. inequalities in pay-setting institutions, on the other hand, advocate that the pay effects of disparities in gender in the labor market. Given that men and women hold different jobs and work in different industries, discrepancies or changes in the wage gaps in those fields would also affect the gender pay gap. For instance, employment in the production sector decreased in comparison to other sectors, and within sectors, blue-collar employment rose in comparison to white-collar employment. These economic trends helped to close the gender pay gap because males are more likely than women to work in production and blue-collar jobs(Kahn 2015). In order to facilitate women's participation and retention in the job market and to decrease obstacles to entry into traditionally male fields, policy attention may be more effectively concentrated in these areas(Lawrarnca M. Kahn 2015). Focusing on disparities in pay, Blau and Kahn(Blau Kahn 1997)  showed that women's relative position significantly improved, particularly during the 1980s,  while female real pay climbed extremely quickly but it is not change that job payment gap. . They proved that a smaller "unexplained" gender gap, which may reflect either a decrease in labor market discrimination or an improvement in women's unmeasured characteristics, can help explain some of this reducing gender pay gap. This improvement in female human resources, particularly in the type of labor market experience, can also help explain some of this reducing gender pay gap. .The dramatic decrease of the gender gap can also be attributed to a large change in the job classifications for women. More specifically, female representation in manager and professional positions has increased, while the fact that their share in low-paying administrative and related jobs has not. In this sample, both the men and the women are likely to have high ambitions for their professions and a long journeys to work. Previous studies have looked at disparities in gender pay among highly paid individuals. Women's pay and jobs may be negatively affected by discrimination on the job market.Different factors might lead to discrimination. According to Becker's (1957) theory, discrimination results from the prejudiced preferences of consumers, coworkers, or bosses. Over all career stages, industrial scientists make more money on average than academics, despite their gender. However, the gender pay gap changes in a different way throughout the course of a career. For instance in academics, men and women start off with equal compensation, but the gap increases as the career progresses. In contrast, men earn more than women in the workplace initially, but as they advance in their careers, the gender pay gap still in there.(Ding, Ohyama, Agarwal 2021).
+To sum up, When we examine the positions of women in business life and compare the positions of men in business life, we see that the number of men in many business areas is more than the number of women (no matter full-time or part-time). Although it has increased in recent years, when we look at the male-female salary, there is still a noticeable difference in the salary difference between men and women.
 
 # Data
-In this section, discuss the source of the data set you use in your study, if you have done any operation on the raw data, these operations and the summary statistics about the data set. In this section, it is mandatory to have a table (Table \ref{tab:summary}) containing summary statistics (mean, standard deviation, minimum, maximum, etc. values) of all variables. Make the necessary references to your tables as shown in the previous sentence [@perkins:1991].
+With a standard deviation of 24.55%, the dataset's average female representation is 45.81%. Maximum is 98.01%, minimum is 1.20%, and the median is 46.91%. Females make an average overall earnings of $46.102.74, with a standard deviation of $21,620.12. For females, the minimum income is $16,771.00, the median income is $41,753.00, and the maximum income is $166,388.00. Males make $55,456.58 on average in total payment, with a standard deviation of $26,728.05. Males earn $17,302.00, a median of $50,250.50, and as much as $231,420.00 annually. The dataset's average year is 2014.50, and its standard deviation is 1.12. The lowest year is 2013, the middle year is 2014, and the highest year is 2016.There are 139,527.77 female employees on average, with a standard deviation of 261,825.96. The minimum, median, and maximum numbers of female employees are 1,333, 49,108.50, and 2,290,818 respectively.There are 170,211.24 men employed on average, with a standard deviation of 285,446.10. The minimal, median, and maximum numbers of male employees are 5,360, 63,437.50, and 2,570,385 respectively.
 
-R codes for the analysis should start in this section. In this section, you should include the codes that imports the data set into R and the codes that generate summary statistics.
+
 
 ```{r}
 library(tidyverse)
 library(readr)
 jobs_gender <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-03-05/jobs_gender.csv")
-jobs_gender <- read_csv("Final/data/jobs_gender.csv")
+jobs_gender <- read_csv("C:/Users/aocakoglu/Desktop/finald/Final/data/jobs_gender.csv")
 ```
 
 ```{r results='asis'}
 library(xtable) 
+library(tidyverse)
 library(summarytools)
 st_options(lang = "en")
 
 jobs_gender %>%
-  select("sex", "credits", "handedness", "height", "handspan") %>% 
+select("year","total_workers","workers_male","workers_female", "percent_female","total_earnings","total_earnings_male","total_earnings_female","wage_percent_of_male") %>% 
   descr(stats = c("mean", "sd", "min", "med", "max"), transpose = TRUE) %>% 
   xtable(caption = "Summary Statistics",
          label = "tab:summary",
@@ -74,36 +76,71 @@ jobs_gender %>%
 ```
 
 
+
 # Methods and Data Analysis
-In this section describe the methods that you use to achieve the purpose of the study. You should use the appropriate analysis methods (such as hypothesis tests and correlation analysis) that we covered in the class. If you want, you can also use other methods that we haven't covered. If you think some method is more suitable for the purpose of the analysis and the data set, you can use that method [@newbold:2003; @verzani:2014; @wickham:2014; @wooldridge:2015a].
+The major_category variable is an important factor in explaining the variability in the percent_female varying, according to the ANOVA analysis, which analyses the statistical significance of the association between the percent_female variable and the major_category variable.The major_category variable has two degrees of freedom, while the residuals have 347 degrees of freedom. The major_category variable's sum of squares is 8826, and the residual sum of squares is 117990. Major_category's mean square is equal to 8826 divided by one degree of freedom, or 8826. The residuals' mean square is 340 when 117990 is separated by 347 degrees of freedom. It shows a difference in the groups' residuals that the major_category variable can explain. The F value in this instance is 25.96. Assuming the null hypothesis is true and there is no significant difference between the groups, the F value is as high as the one calculated The p-value in the current case is really low suggesting strong evidence against the null hypothesis.
 
-For example, if you are performing regression analysis, discuss your predicted equation in this section. Write your equations and mathematical expressions using $LaTeX$.
+```{r echo=FALSE}
+result <- aov(percent_female ~ major_category, data = jobs_gender)
+summary(result)
+library(ggplot2)
+
+# Create a boxplot
+boxplot <- ggplot(jobs_gender, aes(x = major_category, y = percent_female)) +
+  geom_boxplot() +
+  labs(x = "Major Category", y = "Percent Female") +
+  ggtitle("Distribution of Percent Female across Major Categories")
+
+# Print the boxplot
+print(boxplot)
+library(ggplot2)
+
+# Create a bar plot
+barplot <- ggplot(jobs_gender, aes(x = major_category, fill = major_category)) +
+  geom_bar() +
+  labs(x = "Major Category", y = "Count") +
+  ggtitle("Count of Major Categories")
+
+# Print the plots
+print(barplot)
+
+```
+
+
 
 $$
-Y_t = \beta_0 + \beta_N N_t + \beta_P P_t + \beta_I I_t + \varepsilon_t
+The ANOVA model equation can be written as:
+
+$$\text{percent\_female} = \mu + \tau_i + \epsilon$$
+
+Where:
+- $\mu$ represents the overall mean.
+- $\tau_i$ represents the effect of the $i$-th level of the $\text{major\_category}$ variable.
+- $\epsilon$ represents the residual error.
+
 $$
-
-This section should also include different tables and plots. You can add histograms, scatter plots (such as Figure \@ref(fig:plot)), box plots, etc. Make the necessary references to your figures as shown in the previous sentence.
-
 
 ```{r plot, fig.align='center', fig.cap='An Awesome Plot'}
-survey %>% 
-  ggplot(aes(x = handedness, y = handspan)) +
+jobs_gender %>% 
+  ggplot(aes(x = workers_male, y = workers_female)) +
   geom_point() +
   geom_smooth() +
-  scale_x_continuous("Handedness") + 
-  scale_y_continuous("Handspan")
+  scale_x_continuous("workers_male") + 
+  scale_y_continuous("workers_female")
 ```
 
 
 # Conclusion
-Summarize the results of your analysis in this section. Discuss to what extent your results responded to the research question you identified at the beginning and how this work could be improved in the future.
 
-**References section is created automatically by Rmarkdown. There is no need to change the references section in the draft file.**
+When I began my study, I wanted to know if there was a discernible difference in the salaries earned by men and women in different occupations based on their gender. Although I covered a wide range of business-related topics in this investigation, my queries and assumptions were supported by publications and quotations. With the exception of my publications, I used statistical techniques to test the hypothesis I was working on. The technique I used is called "Anova," but it also includes statistical models for analyzing group averages and operations on them (such intra- and intergroup variance Dec. The findings and analysis I conducted on the groups I was comparing show that different occupations have a similar rate on number and gender. A significant number of women have entered traditionally male-dominated professions. Women tend to have a higher likelihood of working part-time and facing occupational barriers. Some argue that pay disparities are influenced by inequalities in institutions responsible for determining wages. On the other hand, proponents of pay-setting institutions emphasize that gender disparities in the labor market contribute to the gender pay gap. As men and women occupy different occupations and industries, any variations or shifts in wage gaps within those fields would impact the overall gender pay gap.  the analysis indicates that there is a notable difference in the residuals among the groups, which can be attributed to the major_category variable. Discrimination in the job market can have negative consequences for women's pay and job opportunities. Various factors can contribute to this discrimination. Becker's (1957) theory suggests that discriminatory practices arise from biased preferences held by consumers, colleagues, or supervisors. Interestingly, throughout their careers, industrial scientists, regardless of gender, tend to earn more on average compared to academics. However, the gender pay gap manifests differently over the course of a career. In academia, men and women start with equal compensation, but the gap widens as their careers progress. On the other hand, men initially earn more than women in the workplace, but the gender pay gap persists as they advance in their careers (Ding, Ohyama, Agarwal, 2021). On average, females have overall earnings of $46,102.74, with a standard deviation of $21,620.12. The minimum income for females is $16,771.00, the median income is $41,753.00, and the maximum income reaches $166,388.00. In comparison, males have average total earnings of $55,456.58, with a standard deviation of $26,728.05. The lowest income for males is $17,302.00, the median income is $50,250.50, and the highest income amounts to $231,420.00 annually. The analysis indicates that there is a notable difference in the residuals among the groups, which can be explained by the major_category variable. The calculated F value of 25.96 is remarkably high, suggesting that if the null hypothesis were true and there were no significant differences between the groups, it would be highly unlikely to observe such a high F value. Additionally, the exceptionally low p-value provides strong evidence against the null hypothesis, further supporting the presence of significant differences between the groups. In addition when we make statistical test and analyzes from Anova our main hypothesis is not true which means ‘null hypothesis’ is not true. ‘Alternative hypotheis’ more stronger and relateble. So we can understand that gender gap and men and women’s rate is not significantly different each other. To sum up,The main goal of this study was to look into gender-based wage discrepancies across various occupations. Research and statistical analysis were done to test the hypothesis, using methods like Anova and looking into the variables affecting gender pay disparities. The analysis identified significant residual group differences that were uniquely given to the major_category variable The report also emphasized the various patterns of the gender wage gap between different career stages. In spite of initially equal pay, the wage difference tends to decrease over time in several professions.
 
-**_You shouldn't delete the last 3 lines. Those lines are required for References section._**
+
 
 \newpage
 # References {#references}
 <div id="refs"></div>
-
+Blau, Francine, D., and Lawrence M. Kahn. 2000. "Gender Differences in Pay." Journal of Economic Perspectives, 14 (4): 75-99.
+DOI: 10.1257/jep.14.4.75
+England, P., Thompson, J., Aman, C. (2001). The Sex Gap in Pay and Comparable Worth. In: Berg, I., Kalleberg, A.L. (eds) Sourcebook of Labor Markets. Plenum Studies in Work and Industry. Springer, Boston, MA. https://doi.org/10.1007/978-1-4615-1225-7_22
+Ding, W.W., Ohyama, A. & Agarwal, R. Trends in gender pay gaps of scientists and engineers in academia and industry. Nat Biotechnol 39, 1019–1024 (2021). https://doi.org/10.1038/s41587-021-01008-0
+Bertrand, M., & Hallock, K. F. (2001). The Gender Gap in Top Corporate Jobs. ILR Review, 55(1), 3–21. https://doi.org/10.1177/001979390105500101
